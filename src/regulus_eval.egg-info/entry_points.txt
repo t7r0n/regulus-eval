@@ -1,2 +1,0 @@
-[console_scripts]
-regulus-eval = regulus_eval.cli:main

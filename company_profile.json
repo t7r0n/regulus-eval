@@ -1,0 +1,56 @@
+{
+  "company": "Ritivel",
+  "company_slug": "ritivel",
+  "repo": "regulus-eval",
+  "package": "regulus_eval",
+  "cli": "regulus-eval",
+  "title": "Regulus Eval",
+  "problem": "Their product page promises \"word level traceability linking every statement to source documents.\" Anyone who has shipped a RAG system into a regulated environment knows the awkward truth: traceability at draft time is easy; it's preserved under edit traceability that breaks the contract. A reg writer accepts the AI's first draft, edits one sentence in Word, re paragraphs, runs a track changes review with a medical monitor, exports to eCTD, and a year later FDA inspects.",
+  "direction": "A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions. Quantifies hallucination, orphan citation, and edit decay rates - and produces the GxP evidence pack a pharma CISO will actually sign off on.",
+  "why": "Pharma CISOs don't buy on demo quality; they buy on the evidence pack their auditor will sign. Shipping that artifact - not another agent - is the unlock for the customer they explicitly say they're chasing.",
+  "terms": [
+    "product",
+    "promises",
+    "level",
+    "traceability",
+    "linking",
+    "every",
+    "statement",
+    "source",
+    "documents",
+    "anyone",
+    "shipped",
+    "regulated",
+    "environment",
+    "knows",
+    "awkward",
+    "truth",
+    "draft",
+    "preserved"
+  ],
+  "metrics": [
+    "product_coverage",
+    "promises_risk",
+    "level_precision",
+    "traceability_latency"
+  ],
+  "failure_modes": [
+    "product_drift",
+    "promises_gap",
+    "level_misroute",
+    "traceability_blindspot"
+  ],
+  "sources": [
+    "https://www.ycombinator.com/launches/PJn-ritivel-ai-native-platform-for-regulatory-document-submission",
+    "https://www.ritivel.com/blog",
+    "https://fondo.com/blog/ritivel-launches",
+    "https://www.linkedin.com/in/tankalapavankalyan/",
+    "https://www.linkedin.com/in/nirmitarora/",
+    "https://scholar.google.com/citations?user=hogvPo8AAAAJ&hl=en",
+    "https://www.linkedin.com/in/gunin-gupta-3a5775194/",
+    "https://www.falconebiz.com/company/RITIVEL-AI-PRIVATE-LIMITED-U62011KA2025PTC212044",
+    "https://intuitionlabs.ai/articles/ai-medical-writing-ctd-module-2-summaries",
+    "https://intuitionlabs.ai/articles/ectd-submission-ind-nda-guide"
+  ],
+  "github_url": "https://github.com/t7r0n/regulus-eval"
+}

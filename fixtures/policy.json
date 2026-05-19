@@ -1,0 +1,18 @@
+{
+  "company": "Ritivel",
+  "repo": "regulus-eval",
+  "metrics": [
+    "product_coverage",
+    "promises_risk",
+    "level_precision",
+    "traceability_latency"
+  ],
+  "failure_modes": [
+    "product_drift",
+    "promises_gap",
+    "level_misroute",
+    "traceability_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}

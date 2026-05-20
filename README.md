@@ -53,19 +53,6 @@ uv run ruff check .
 - `outputs/strategy_model.json`
 - `outputs/demo_pack.zip`
 
-## Sources
-
-- https://www.ycombinator.com/launches/PJn-ritivel-ai-native-platform-for-regulatory-document-submission
-- https://www.ritivel.com/blog
-- https://fondo.com/blog/ritivel-launches
-- https://www.linkedin.com/in/tankalapavankalyan/
-- https://www.linkedin.com/in/nirmitarora/
-- https://scholar.google.com/citations?user=hogvPo8AAAAJ&hl=en
-- https://www.linkedin.com/in/gunin-gupta-3a5775194/
-- https://www.falconebiz.com/company/RITIVEL-AI-PRIVATE-LIMITED-U62011KA2025PTC212044
-- https://intuitionlabs.ai/articles/ai-medical-writing-ctd-module-2-summaries
-- https://intuitionlabs.ai/articles/ectd-submission-ind-nda-guide
-
 ## Boundary
 
 Everything runs locally against synthetic fixtures. There are no credentials, no customer records, no outreach files, and no hosted API dependency.

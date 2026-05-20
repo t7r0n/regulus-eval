@@ -1,7 +1,7 @@
 [project]
 name = "regulus-eval"
 version = "0.1.0"
-description = "A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions. Quantifies hallucination, orphan citat"
+description = "A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions. Quantifies halluci"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [

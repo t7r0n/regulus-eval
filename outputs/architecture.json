@@ -2,11 +2,11 @@
   "layers": [
     {
       "name": "fixture_replay",
-      "purpose": "exercise product and promises cases"
+      "purpose": "exercise evidence and workflow cases"
     },
     {
       "name": "strategy_model",
-      "purpose": "score product_coverage and promises_risk"
+      "purpose": "score evidence_coverage and handoff_risk"
     },
     {
       "name": "evidence_lock",
@@ -21,37 +21,37 @@
   "top_leverage_points": [
     {
       "rank": 1,
-      "scenario": "product evidence replay",
-      "metric": "product_coverage",
-      "failure_mode": "product_drift",
-      "evidence": "ev_0044",
+      "scenario": "evidence replay",
+      "metric": "evidence_coverage",
+      "failure_mode": "evidence_drift",
+      "evidence": "ev_0088",
       "operator_action": "block release until cited evidence is regenerated",
       "severity": 2.611
     },
     {
       "rank": 2,
-      "scenario": "traceability operator packet",
-      "metric": "promises_risk",
-      "failure_mode": "promises_gap",
-      "evidence": "ev_0011",
+      "scenario": "review operator packet",
+      "metric": "handoff_risk",
+      "failure_mode": "handoff_gap",
+      "evidence": "ev_0099",
       "operator_action": "accept only if decision claims cite fixture evidence",
       "severity": 2.556
     },
     {
       "rank": 3,
-      "scenario": "level regression harness",
-      "metric": "level_precision",
-      "failure_mode": "level_misroute",
-      "evidence": "ev_0110",
+      "scenario": "claim regression harness",
+      "metric": "claim_precision",
+      "failure_mode": "claim_misroute",
+      "evidence": "ev_0022",
       "operator_action": "open a regression issue with trace and benchmark delta",
       "severity": 2.528
     },
     {
       "rank": 4,
-      "scenario": "promises boundary probe",
-      "metric": "traceability_latency",
-      "failure_mode": "traceability_blindspot",
-      "evidence": "ev_0121",
+      "scenario": "handoff boundary probe",
+      "metric": "review_latency",
+      "failure_mode": "review_blindspot",
+      "evidence": "ev_0033",
       "operator_action": "route to reviewer with evidence packet",
       "severity": 2.528
     }

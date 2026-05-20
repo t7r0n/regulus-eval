@@ -1,6 +1,6 @@
 # Decision Report: Regulus Eval
 
-A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions. Quantifies hallucination, orphan citation, and edit decay rates - and produces the GxP evidence pack a pharma CISO will actually sign off on.
+A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions. Quantifies hallucination, orphan citation, and edit decay rates — and produces the GxP evidence pack a pharma CISO will actually sign off on.
 
 ## Evidence-Grounded Findings
 

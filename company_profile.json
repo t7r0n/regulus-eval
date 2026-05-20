@@ -6,7 +6,7 @@
   "cli": "regulus-eval",
   "title": "Regulus Eval",
   "problem": "Their product page promises \"word level traceability linking every statement to source documents.\" Anyone who has shipped a RAG system into a regulated environment knows the awkward truth: traceability at draft time is easy; it's preserved under edit traceability that breaks the contract. A reg writer accepts the AI's first draft, edits one sentence in Word, re paragraphs, runs a track changes review with a medical monitor, exports to eCTD, and a year later FDA inspects.",
-  "direction": "A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions. Quantifies hallucination, orphan citation, and edit decay rates - and produces the GxP evidence pack a pharma CISO will actually sign off on.",
+  "direction": "A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions. Quantifies hallucination, orphan citation, and edit decay rates \u2014 and produces the GxP evidence pack a pharma CISO will actually sign off on.",
   "why": "Pharma CISOs don't buy on demo quality; they buy on the evidence pack their auditor will sign. Shipping that artifact - not another agent - is the unlock for the customer they explicitly say they're chasing.",
   "terms": [
     "product",

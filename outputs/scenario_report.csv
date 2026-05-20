@@ -1,7 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-level failure replay,24,2,4,3.333,0.5251,ev_0044,block release until replay is understood
-product drift,24,2,3,2.5,0.394,ev_0088,block release until replay is understood
-product evidence recall,24,3,3,1.875,0.2796,ev_0132,block release until replay is understood
-promises gap,24,3,2,3.333,0.5443,ev_0011,block release until replay is understood
-promises reviewer handoff,24,2,4,2.583,0.3896,ev_0055,block release until replay is understood
-traceability policy boundary,24,2,3,1.708,0.2766,ev_0033,block release until replay is understood
+level regression harness,36,3,5,2.528,0.3932,ev_0110,open a regression issue with trace and benchmark delta
+product evidence replay,36,4,5,2.611,0.4028,ev_0044,block release until cited evidence is regenerated
+promises boundary probe,36,3,4,2.528,0.3878,ev_0121,route to reviewer with evidence packet
+traceability operator packet,36,4,5,2.556,0.4043,ev_0011,accept only if decision claims cite fixture evidence

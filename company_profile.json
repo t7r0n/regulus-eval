@@ -14,7 +14,6 @@
     "level",
     "traceability",
     "linking",
-    "every",
     "statement",
     "source",
     "documents",
@@ -26,7 +25,8 @@
     "awkward",
     "truth",
     "draft",
-    "preserved"
+    "preserved",
+    "under"
   ],
   "metrics": [
     "product_coverage",
@@ -39,6 +39,28 @@
     "promises_gap",
     "level_misroute",
     "traceability_blindspot"
+  ],
+  "archetypes": [
+    {
+      "name": "product evidence replay",
+      "trigger": "product signal changes while promises context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "promises boundary probe",
+      "trigger": "promises handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "level regression harness",
+      "trigger": "level behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "traceability operator packet",
+      "trigger": "traceability output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
   ],
   "sources": [
     "https://www.ycombinator.com/launches/PJn-ritivel-ai-native-platform-for-regulatory-document-submission",

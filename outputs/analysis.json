@@ -9,74 +9,54 @@
   },
   "clusters": [
     {
-      "scenario": "level failure replay",
-      "cases": 24,
-      "blocks": 2,
-      "reviews": 4,
-      "mean_severity": 3.333,
-      "mean_score": 0.5251,
+      "scenario": "level regression harness",
+      "cases": 36,
+      "blocks": 3,
+      "reviews": 5,
+      "mean_severity": 2.528,
+      "mean_score": 0.3932,
+      "top_evidence_id": "ev_0110",
+      "recommended_action": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "scenario": "product evidence replay",
+      "cases": 36,
+      "blocks": 4,
+      "reviews": 5,
+      "mean_severity": 2.611,
+      "mean_score": 0.4028,
       "top_evidence_id": "ev_0044",
-      "recommended_action": "block release until replay is understood"
+      "recommended_action": "block release until cited evidence is regenerated"
     },
     {
-      "scenario": "product drift",
-      "cases": 24,
-      "blocks": 2,
-      "reviews": 3,
-      "mean_severity": 2.5,
-      "mean_score": 0.394,
-      "top_evidence_id": "ev_0088",
-      "recommended_action": "block release until replay is understood"
-    },
-    {
-      "scenario": "product evidence recall",
-      "cases": 24,
+      "scenario": "promises boundary probe",
+      "cases": 36,
       "blocks": 3,
-      "reviews": 3,
-      "mean_severity": 1.875,
-      "mean_score": 0.2796,
-      "top_evidence_id": "ev_0132",
-      "recommended_action": "block release until replay is understood"
-    },
-    {
-      "scenario": "promises gap",
-      "cases": 24,
-      "blocks": 3,
-      "reviews": 2,
-      "mean_severity": 3.333,
-      "mean_score": 0.5443,
-      "top_evidence_id": "ev_0011",
-      "recommended_action": "block release until replay is understood"
-    },
-    {
-      "scenario": "promises reviewer handoff",
-      "cases": 24,
-      "blocks": 2,
       "reviews": 4,
-      "mean_severity": 2.583,
-      "mean_score": 0.3896,
-      "top_evidence_id": "ev_0055",
-      "recommended_action": "block release until replay is understood"
+      "mean_severity": 2.528,
+      "mean_score": 0.3878,
+      "top_evidence_id": "ev_0121",
+      "recommended_action": "route to reviewer with evidence packet"
     },
     {
-      "scenario": "traceability policy boundary",
-      "cases": 24,
-      "blocks": 2,
-      "reviews": 3,
-      "mean_severity": 1.708,
-      "mean_score": 0.2766,
-      "top_evidence_id": "ev_0033",
-      "recommended_action": "block release until replay is understood"
+      "scenario": "traceability operator packet",
+      "cases": 36,
+      "blocks": 4,
+      "reviews": 5,
+      "mean_severity": 2.556,
+      "mean_score": 0.4043,
+      "top_evidence_id": "ev_0011",
+      "recommended_action": "accept only if decision claims cite fixture evidence"
     }
   ],
   "highest_risk": {
-    "scenario": "promises gap",
-    "cases": 24,
-    "blocks": 3,
-    "reviews": 2,
-    "mean_severity": 3.333,
-    "mean_score": 0.5443,
-    "top_evidence_id": "ev_0011",
-    "recommended_action": "block release until replay is understood"
+    "scenario": "product evidence replay",
+    "cases": 36,
+    "blocks": 4,
+    "reviews": 5,
+    "mean_severity": 2.611,
+    "mean_score": 0.4028,
+    "top_evidence_id": "ev_0044",
+    "recommended_action": "block release until cited evidence is regenerated"
   }
 }

@@ -1,20 +1,40 @@
 # Regulus Eval
 
-A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions. Quantifies hallucination, orphan citation, and edit decay rates - and produces the GxP evidence pack a pharma CISO will actually sign off on.
+A regulatory document evaluation harness + citation integrity runtime for AI drafted FDA submissions.
 
-## Why This Exists
+![Regulus Eval working dashboard](outputs/project_working.svg)
 
-Their product page promises "word level traceability linking every statement to source documents." Anyone who has shipped a RAG system into a regulated environment knows the awkward truth: traceability at draft time is easy; it's preserved under edit traceability that breaks the contract. A reg writer accepts the AI's first draft, edits one sentence in Word, re paragraphs, runs a track changes review with a medical monitor, exports to eCTD, and a year later FDA inspects.
+## Why it exists
 
-## What It Builds
+Their product page promises "word level traceability linking every statement to source documents." Anyone who has shipped a RAG system into a regulated environment knows the awkward truth: traceability at draft time is easy; it's preserved under edit traceability that breaks the contract.
 
-- Replays synthetic `product` and `promises` cases against the project's evidence rules.
-- Scores `product_coverage`, `promises_risk`, and `level_precision` so regressions are visible in CSV and JSON.
-- Plants `product drift` and `promises gap` failures as negative controls.
-- Writes citation-locked decision claims; unsupported claims fail verification.
-- Exports a review dashboard and demo pack for `regulus-eval` without hosted services.
+Most internal demos stop at a pretty chart. This repository is built around the harder part: a repeatable path from fixture, to failure, to evidence, to the operator action a serious team would actually trust.
 
-## Local Run
+## What is inside
+
+- A deterministic replay harness tuned around product, promises, and level.
+- Company-specific strategy code in `src/regulus_eval/strategy.py`, not just README-level customization.
+- Citation-locked reports where every decision claim has to point back to a generated evidence ID.
+- Two visual artifacts generated from the latest run: `outputs/project_working.svg` and `outputs/evidence_map.svg`.
+- A portable demo pack with JSON, CSV, Markdown, HTML, SVG, and benchmark artifacts.
+
+![Regulus Eval evidence map](outputs/evidence_map.svg)
+
+## Signals it measures
+
+- `product coverage`
+- `promises risk`
+- `level precision`
+- `traceability latency`
+
+## Failure modes it plants
+
+- product drift
+- promises gap
+- level misroute
+- traceability blindspot
+
+## Run it locally
 
 ```bash
 uv sync
@@ -23,16 +43,14 @@ uv run pytest -q
 uv run ruff check .
 ```
 
-## Outputs
+## Outputs worth opening
 
-- `outputs/analysis.json`
-- `outputs/scenario_report.csv`
-- `outputs/decision_report.md`
-- `outputs/evidence_packet.md`
-- `outputs/domain_rubric.json`
-- `outputs/failure_matrix.md`
-- `outputs/trace_graph.mmd`
 - `outputs/dashboard.html`
+- `outputs/project_working.svg`
+- `outputs/evidence_map.svg`
+- `outputs/operator_brief.md`
+- `outputs/decision_report.md`
+- `outputs/strategy_model.json`
 - `outputs/demo_pack.zip`
 
 ## Sources
@@ -50,4 +68,4 @@ uv run ruff check .
 
 ## Boundary
 
-This repository uses synthetic fixtures only. It has no credentials, no customer data, no outreach data, and no dependency on a hosted API.
+Everything runs locally against synthetic fixtures. There are no credentials, no customer records, no outreach files, and no hosted API dependency.
